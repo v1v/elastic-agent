@@ -1,8 +1,8 @@
 scm:
   enabled: true
-  owner: elastic
+  owner: v1v
   repository: elastic-agent
-  branch: main
+  branch: test/updatecli-pin-vm-images
   commitusingapi: true
   # begin updatecli-compose policy values
   user: 'github-actions[bot]'

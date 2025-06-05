@@ -4,12 +4,12 @@ env:
   VAULT_PATH: "kv/ci-shared/observability-ingest/cloud/gcp"
   DOCKER_REGISTRY: "docker.elastic.co"
 
-  IMAGE_UBUNTU_2204_X86_64: "platform-ingest-elastic-agent-ubuntu-2204-1744855248"
-  IMAGE_UBUNTU_2204_ARM_64: "platform-ingest-elastic-agent-ubuntu-2204-aarch64-1744855248"
-  IMAGE_WIN_2016: "platform-ingest-elastic-agent-windows-2016-1744855248"
-  IMAGE_WIN_2022: "platform-ingest-elastic-agent-windows-2022-1744855248"
-  IMAGE_WIN_10: "platform-ingest-elastic-agent-windows-10-1744855248"
-  IMAGE_WIN_11: "platform-ingest-elastic-agent-windows-11-1744855248"
+  IMAGE_UBUNTU_2204_X86_64: "platform-ingest-elastic-agent-ubuntu-2204-1754885210"
+  IMAGE_UBUNTU_2204_ARM_64: "platform-ingest-elastic-agent-ubuntu-2204-aarch64-1754885210"
+  IMAGE_WIN_2016: "platform-ingest-elastic-agent-windows-2016-1754885210"
+  IMAGE_WIN_2022: "platform-ingest-elastic-agent-windows-2022-1754885210"
+  IMAGE_WIN_10: "platform-ingest-elastic-agent-windows-10-1754885210"
+  IMAGE_WIN_11: "platform-ingest-elastic-agent-windows-11-1754885210"
 
 steps:
   - label: "check-ci"
